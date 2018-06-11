@@ -43,7 +43,11 @@ namespace GreenHorn.Essentials.Tests
                 var one = GetName().Length;
                 var two = GetValue() * 2;
                 return GetValueFrom(one, two);
-            }, new RetryInfo());
+            }, new RetryInfo() {
+                Attempts = 2,
+                Timeout = 30,
+                WaitTime = 50
+            });
 
             Assert.AreEqual(
                 expected: 8,
