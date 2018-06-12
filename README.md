@@ -3,9 +3,6 @@ A .NET Library With Utility Classes, Methods and common functionality to be used
 
 ## Motivation
 Application development tends to be reliant on common or repetative system of logic or `core copentency`. The motivation behind this library is to provide a single source of common functionality in a single tested and testable location that can be used across a myrid of application projects.
-
-
-## Build status
  
 
 ## Code style
@@ -27,6 +24,7 @@ Generic Retry Logic.
 
 ```csharp
 GreenHorn.Essentials.Core Essentials = new GreenHorn.Essentials.Core();
+
 var result = Essentials.Retry(() => {
     return GetValueFrom(8, 2);
 }, new RetryInfo() {
@@ -51,7 +49,6 @@ var result = new GreenHorn.Essentials.Core().Retry(() => {
     Timeout = 30,
     WaitTime = 50
 });
-
 ```
 
 

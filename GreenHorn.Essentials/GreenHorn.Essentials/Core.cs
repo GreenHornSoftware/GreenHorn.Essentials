@@ -6,11 +6,24 @@ namespace GreenHorn.Essentials
 {
     public class Core
     {
+        /// <summary>
+        /// Convert Millisecondses from seconds.
+        /// </summary>
+        /// <param name="seconds">The seconds.</param>
+        /// <returns></returns>
         public int MillisecondsFrom(int seconds)
         {
             return seconds * 1000;
         }
 
+        /// <summary>
+        /// Retries the specified action based on provided RetryInfo.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="action">The action.</param>
+        /// <param name="info">The information.</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException">info</exception>
         public T Retry<T>(Func<T> action, RetryInfo info)
         {
             if (info == null) throw new ArgumentNullException(nameof(info));
