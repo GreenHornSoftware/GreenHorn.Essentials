@@ -1,6 +1,0 @@
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\bin\Debug\GreenHorn.Essentials.dll
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\bin\Debug\GreenHorn.Essentials.pdb
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\obj\Debug\GreenHorn.Essentials.csprojResolveAssemblyReference.cache
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\obj\Debug\GreenHorn.Essentials.csproj.CoreCompileInputs.cache
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\obj\Debug\GreenHorn.Essentials.dll
-C:\Users\adamb\Source\Repos\GreenHorn.Essentials\GreenHorn.Essentials\GreenHorn.Essentials\obj\Debug\GreenHorn.Essentials.pdb
