@@ -16,15 +16,15 @@
         /// Gets or sets the wait time.
         /// </summary>
         /// <value>
-        /// The wait time.
+        /// The wait time in Milliseconds.
         /// </value>
-        public int WaitTime { get; set; } = 50;
+        public int WaitTime { get; set; } = 500;
         /// <summary>
         /// Gets or sets the timeout.
         /// </summary>
         /// <value>
-        /// The timeout.
+        /// The timeout in Milliseconds.
         /// </value>
-        public int Timeout { get; set; } = 30;
+        public int Timeout { get; set; } = 1000;
     }
 }

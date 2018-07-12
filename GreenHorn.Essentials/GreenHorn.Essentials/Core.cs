@@ -6,15 +6,6 @@ namespace GreenHorn.Essentials
 {
     public class Core
     {
-        /// <summary>
-        /// Convert Millisecondses from seconds.
-        /// </summary>
-        /// <param name="seconds">The seconds.</param>
-        /// <returns></returns>
-        public int MillisecondsFrom(int seconds)
-        {
-            return seconds * 1000;
-        }
 
         /// <summary>
         /// Retries the specified action based on provided RetryInfo.
