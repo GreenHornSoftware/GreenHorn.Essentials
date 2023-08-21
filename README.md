@@ -90,7 +90,7 @@ public void Core_Retry_pass_in_primitive_return_type_method_returns_primitive_va
 
 Contributions are always welcome!
  
-###Contribution Guidelines
+### Contribution Guidelines
 Please ensure your pull request adheres to the following guidelines:
 
 - Alphabetize your entry.
